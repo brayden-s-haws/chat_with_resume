@@ -1,6 +1,5 @@
 # Chat With Resume
 
-## Description
 This is an easy to set up and use web app that allows users to learn about you. You select the content you want them to have access to: resume, blog posts, GitHub content, etc. Users then interact with it through a chat interface.
 
 ## How It Works
