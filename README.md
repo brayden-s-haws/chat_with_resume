@@ -14,6 +14,7 @@ If you want to try it out before builing your own, you can try out my version of
 ## Files
 
 **main.py:** This file iniates the flask app and manages the interaction between the user and chatbot.
+
 **index.html:** This file contains all the styling and frontend for the app.
 
 ## Setup
@@ -24,6 +25,7 @@ You first need to create a [Clarifai account](https://www.clarifai.com), it's fr
 * Install clarifai, llama_index, flask
 * Add CLARIFAI_PAT as environment variable (more details on creating a PAT are found [here](https://docs.clarifai.com/clarifai-basics/authentication/personal-access-tokens).)
 * Create a folder named 'content' and upload the files you want the app to use. The files need to be in pdf format.
+* Once you finish updating files below, then deploy the app to the web.
 
 
 #### app.py
@@ -33,7 +35,7 @@ You first need to create a [Clarifai account](https://www.clarifai.com), it's fr
 # Add your name to the system prompt on line 9.
 
 
-#index.html
+#### index.html
 * Add your name to the H2 on line 51
 * Fill out your intro and prompt examples on line 52
 * Change chatbot name/icon on  line 79
