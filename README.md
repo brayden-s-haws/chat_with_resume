@@ -32,7 +32,7 @@ You first need to create a [Clarifai account](https://www.clarifai.com), it's fr
 * Add user_id on line 4. You can find your user_id in your Clarifai account settings.
 * Add llm_url on line 4. (This is defaulted to use gpt4-turbo but you can change it to any supported model.)
 * Add the file path for your 'content folder' to 'folder_path' on line 5.
-# Add your name to the system prompt on line 9.
+* Add your name to the system prompt on line 9.
 
 
 #### index.html
