@@ -1,5 +1,8 @@
 # Chat With Resume
 
+#### Current status: Complete
+
+## Description
 This is an easy to set up and use web app that allows users to learn about you. You select the content you want them to have access to: resume, blog posts, GitHub content, etc. Users then interact with it through a chat interface.
 
 ## How It Works
@@ -38,3 +41,10 @@ You first need to create a [Clarifai account](https://www.clarifai.com), it's fr
 * Add your name to the H2 on line 51
 * Fill out your intro and prompt examples on line 52
 * Change chatbot name/icon on  line 79
+
+___
+
+### Personal Progress
+* What I learned: How to use Clarifai's API's for RAG and inference
+* What I wish I had done differently: I wish I had not used an out of the box solution like Clarifai and instead forced myself to learn how to generate and store embeddings. Also I should have made a more visually pleasing frontend. I made something that works but doesn't look great.
+* What I want to learn next: How to properly generate, store, and retrieve embeddings.
